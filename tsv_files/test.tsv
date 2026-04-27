@@ -1,0 +1,193 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+
+
+#Text=Anna Kowalska rozpoczęła pracę w nowej firmie informatycznej w Warszawie.
+1-1	0-4	Anna	*->2-1	Anna[2]	
+1-2	5-13	Kowalska	*->2-1	Anna[2]	
+1-3	14-24	rozpoczęła	_	_	
+1-4	25-30	pracę	_	_	
+1-5	31-32	w	_	_	
+1-6	33-38	nowej	_	_	
+1-7	39-45	firmie	_	_	
+1-8	46-60	informatycznej	_	_	
+1-9	61-62	w	_	_	
+1-10	63-72	Warszawie	_	_	
+1-11	72-73	.	_	_	
+
+#Text=Kobieta była bardzo zadowolona z tej zmiany, ponieważ od dawna szukała miejsca, w którym mogłaby rozwijać swoje umiejętności programistyczne.
+2-1	74-81	Kobieta	*->2-2	*[2]	
+2-2	82-86	była	_	_	
+2-3	87-93	bardzo	_	_	
+2-4	94-104	zadowolona	_	_	
+2-5	105-106	z	_	_	
+2-6	107-110	tej	_	_	
+2-7	111-117	zmiany	_	_	
+2-8	117-118	,	_	_	
+2-9	119-127	ponieważ	_	_	
+2-10	128-130	od	_	_	
+2-11	131-136	dawna	_	_	
+2-12	137-144	szukała	_	_	
+2-13	145-152	miejsca	_	_	
+2-14	152-153	,	_	_	
+2-15	154-155	w	_	_	
+2-16	156-162	którym	_	_	
+2-17	163-170	mogłaby	_	_	
+2-18	171-179	rozwijać	_	_	
+2-19	180-185	swoje	_	_	
+2-20	186-198	umiejętności	_	_	
+2-21	199-214	programistyczne	_	_	
+2-22	214-215	.	_	_	
+
+#Text=Pierwszego dnia Anna spotkała swojego przełożonego, Marka Nowaka.
+3-1	219-229	Pierwszego	_	_	
+3-2	230-234	dnia	_	_	
+3-3	235-239	Anna	*->2-3	*[2]	
+3-4	240-248	spotkała	_	_	
+3-5	249-256	swojego	_	_	
+3-6	257-269	przełożonego	_	_	
+3-7	269-270	,	_	_	
+3-8	271-276	Marka	*->1-1	*[1]	
+3-9	277-283	Nowaka	*->1-1	*[1]	
+3-10	283-284	.	_	_	
+
+#Text=Mężczyzna oprowadził ją po biurze i przedstawił jej resztę zespołu.
+4-1	285-294	Mężczyzna	*->1-2	*[1]	
+4-2	295-305	oprowadził	_	_	
+4-3	306-308	ją	*->2-4	*[2]	
+4-4	309-311	po	_	_	
+4-5	312-318	biurze	_	_	
+4-6	319-320	i	_	_	
+4-7	321-332	przedstawił	_	_	
+4-8	333-336	jej	*->2-5	*[2]	
+4-9	337-343	resztę	_	_	
+4-10	344-351	zespołu	_	_	
+4-11	351-352	.	_	_	
+
+#Text=Zespół przyjął Annę bardzo ciepło, a ona szybko poczuła się częścią grupy.
+5-1	353-359	Zespół	_	_	
+5-2	360-367	przyjął	_	_	
+5-3	368-372	Annę	*->2-6	*[2]	
+5-4	373-379	bardzo	_	_	
+5-5	380-386	ciepło	_	_	
+5-6	386-387	,	_	_	
+5-7	388-389	a	_	_	
+5-8	390-393	ona	*->2-7	*[2]	
+5-9	394-400	szybko	_	_	
+5-10	401-408	poczuła	_	_	
+5-11	409-412	się	_	_	
+5-12	413-420	częścią	_	_	
+5-13	421-426	grupy	_	_	
+5-14	426-427	.	_	_	
+
+#Text=Po kilku tygodniach pracownica dostała swój pierwszy większy projekt.
+6-1	431-433	Po	_	_	
+6-2	434-439	kilku	_	_	
+6-3	440-450	tygodniach	_	_	
+6-4	451-461	pracownica	*->2-8	*[2]	
+6-5	462-469	dostała	_	_	
+6-6	470-474	swój	_	_	
+6-7	475-483	pierwszy	_	_	
+6-8	484-491	większy	_	_	
+6-9	492-499	projekt	_	_	
+6-10	499-500	.	_	_	
+
+#Text=Dotyczył on stworzenia aplikacji dla lokalnego banku.
+7-1	501-509	Dotyczył	_	_	
+7-2	510-512	on	_	_	
+7-3	513-523	stworzenia	_	_	
+7-4	524-533	aplikacji	_	_	
+7-5	534-537	dla	_	_	
+7-6	538-547	lokalnego	_	_	
+7-7	548-553	banku	_	_	
+7-8	553-554	.	_	_	
+
+#Text=Projekt był wymagający, ale Anna była przekonana, że sobie z nim poradzi.
+8-1	555-562	Projekt	_	_	
+8-2	563-566	był	_	_	
+8-3	567-577	wymagający	_	_	
+8-4	577-578	,	_	_	
+8-5	579-582	ale	_	_	
+8-6	583-587	Anna	*->2-9	*[2]	
+8-7	588-592	była	_	_	
+8-8	593-603	przekonana	_	_	
+8-9	603-604	,	_	_	
+8-10	605-607	że	_	_	
+8-11	608-613	sobie	_	_	
+8-12	614-615	z	_	_	
+8-13	616-619	nim	_	_	
+8-14	620-627	poradzi	_	_	
+8-15	627-628	.	_	_	
+
+#Text=Kiedy kobieta napotkała trudności, poprosiła Marka o pomoc.
+9-1	632-637	Kiedy	_	_	
+9-2	638-645	kobieta	*->2-10	*[2]	
+9-3	646-655	napotkała	_	_	
+9-4	656-665	trudności	_	_	
+9-5	665-666	,	_	_	
+9-6	667-676	poprosiła	_	_	
+9-7	677-682	Marka	*->1-3	*[1]	
+9-8	683-684	o	_	_	
+9-9	685-690	pomoc	_	_	
+9-10	690-691	.	_	_	
+
+#Text=On chętnie wyjaśnił jej kilka kwestii technicznych i zaproponował rozwiązanie problemu.
+10-1	692-694	On	*->1-4	*[1]	
+10-2	695-702	chętnie	_	_	
+10-3	703-711	wyjaśnił	_	_	
+10-4	712-715	jej	*->2-11	*[2]	
+10-5	716-721	kilka	_	_	
+10-6	722-729	kwestii	_	_	
+10-7	730-742	technicznych	_	_	
+10-8	743-744	i	_	_	
+10-9	745-757	zaproponował	_	_	
+10-10	758-769	rozwiązanie	_	_	
+10-11	770-778	problemu	_	_	
+10-12	778-779	.	_	_	
+
+#Text=Dzięki temu Anna mogła kontynuować pracę nad projektem.
+11-1	780-786	Dzięki	_	_	
+11-2	787-791	temu	_	_	
+11-3	792-796	Anna	*->2-12	*[2]	
+11-4	797-802	mogła	_	_	
+11-5	803-814	kontynuować	_	_	
+11-6	815-820	pracę	_	_	
+11-7	821-824	nad	_	_	
+11-8	825-834	projektem	_	_	
+11-9	834-835	.	_	_	
+
+#Text=Po trzech miesiącach aplikacja była gotowa.
+12-1	839-841	Po	_	_	
+12-2	842-848	trzech	_	_	
+12-3	849-859	miesiącach	_	_	
+12-4	860-869	aplikacja	_	_	
+12-5	870-874	była	_	_	
+12-6	875-881	gotowa	_	_	
+12-7	881-882	.	_	_	
+
+#Text=Klient był bardzo zadowolony z efektu pracy zespołu.
+13-1	883-889	Klient	_	_	
+13-2	890-893	był	_	_	
+13-3	894-900	bardzo	_	_	
+13-4	901-911	zadowolony	_	_	
+13-5	912-913	z	_	_	
+13-6	914-920	efektu	_	_	
+13-7	921-926	pracy	_	_	
+13-8	927-934	zespołu	_	_	
+13-9	934-935	.	_	_	
+
+#Text=Marek pogratulował Annie sukcesu i powiedział, że jest dumny z jej osiągnięć.
+14-1	936-941	Marek	*->1-5	*[1]	
+14-2	942-954	pogratulował	_	_	
+14-3	955-960	Annie	*->2-13	*[2]	
+14-4	961-968	sukcesu	_	_	
+14-5	969-970	i	_	_	
+14-6	971-981	powiedział	_	_	
+14-7	981-982	,	_	_	
+14-8	983-985	że	_	_	
+14-9	986-990	jest	_	_	
+14-10	991-996	dumny	_	_	
+14-11	997-998	z	_	_	
+14-12	999-1002	jej	*->2-14	*[2]	
+14-13	1003-1012	osiągnięć	_	_	
+14-14	1012-1013	.	_	_	

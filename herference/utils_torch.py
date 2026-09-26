@@ -74,10 +74,10 @@ def split_tokenized(t, max_length=510):
 
 def split_with_overlap(
         input_ids: torch.Tensor,
-        chunk_size: int = 1024,
+        chunk_size: int = 400,
         overlap: int = 200,
         min_chunk_size: int = 50
-) -> Tuple[List[torch.Tensor], List[Tuple[int, int]]]:
+):
     if not isinstance(input_ids, torch.Tensor):
         input_ids = torch.tensor(input_ids, dtype=torch.long)
 
@@ -86,28 +86,32 @@ def split_with_overlap(
     if seq_len <= chunk_size:
         return [input_ids], [(0, seq_len)]
 
+    if overlap >= chunk_size:
+        raise ValueError("overlap musi być mniejszy niż chunk_size")
+
+    step = chunk_size - overlap
+
     chunks = []
     spans = []
 
-    step = chunk_size - overlap
-    if step <= 0:
-        raise ValueError("overlap musi być mniejszy niż chunk_size")
-
     start = 0
+
     while start < seq_len:
+
         end = min(start + chunk_size, seq_len)
 
-        # jeśli pozostało bardzo mało tokenów, dołącz do poprzedniego chunka
+        # Jeśli to ostatni fragment i jest bardzo krótki,
+        # rozszerzamy poprzednie okno do końca dokumentu.
         if end < seq_len and (seq_len - end) < min_chunk_size:
             end = seq_len
 
-        chunk = input_ids[start:end]
-        chunks.append(chunk)
+        chunks.append(input_ids[start:end])
         spans.append((start, end))
 
-        start += step
-
-        if start >= seq_len:
+        # JEŻELI DOSZLIŚMY DO KOŃCA — KONIEC
+        if end >= seq_len:
             break
+
+        start += step
 
     return chunks, spans

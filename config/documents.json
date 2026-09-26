@@ -1,0 +1,10 @@
+{
+    "cw": "data/cw.jsonl",
+    "dk": "data/dk.jsonl",
+    "ksc": "data/ksc.jsonl",
+    "ksk": "data/ksk.jsonl",
+    "nno": "data/nno.jsonl",
+    "szp": "data/szp.jsonl",
+    "uos": "data/uos.jsonl",
+    "uzp": "data/uzp.jsonl"
+}

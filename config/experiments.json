@@ -1,0 +1,137 @@
+{
+    "experiment_1": {
+        "train": [
+            "dk",
+            "ksc",
+            "ksk",
+            "szp",
+            "uos",
+            "uzp"
+        ],
+        "validation": [
+            "cw"
+        ],
+        "test": [
+            "nno"
+        ]
+    },
+
+    "experiment_2": {
+        "train": [
+            "nno",
+            "ksc",
+            "ksk",
+            "szp",
+            "uos",
+            "uzp"
+        ],
+        "validation": [
+            "dk"
+        ],
+        "test": [
+            "cw"
+        ]
+    },
+
+    "experiment_3": {
+        "train": [
+            "nno",
+            "cw",
+            "ksk",
+            "szp",
+            "uos",
+            "uzp"
+        ],
+        "validation": [
+            "ksc"
+        ],
+        "test": [
+            "dk"
+        ]
+    },
+
+    "experiment_4": {
+        "train": [
+            "nno",
+            "cw",
+            "dk",
+            "szp",
+            "uos",
+            "uzp"
+        ],
+        "validation": [
+            "ksk"
+        ],
+        "test": [
+            "ksc"
+        ]
+    },
+
+    "experiment_5": {
+        "train": [
+            "nno",
+            "cw",
+            "dk",
+            "ksc",
+            "uos",
+            "uzp"
+        ],
+        "validation": [
+            "szp"
+        ],
+        "test": [
+            "ksk"
+        ]
+    },
+
+    "experiment_6": {
+        "train": [
+            "nno",
+            "cw",
+            "dk",
+            "ksc",
+            "ksk",
+            "uzp"
+        ],
+        "validation": [
+            "uos"
+        ],
+        "test": [
+            "szp"
+        ]
+    },
+
+    "experiment_7": {
+        "train": [
+            "nno",
+            "cw",
+            "dk",
+            "ksc",
+            "ksk",
+            "szp"
+        ],
+        "validation": [
+            "uzp"
+        ],
+        "test": [
+            "uos"
+        ]
+    },
+
+    "experiment_8": {
+        "train": [
+            "cw",
+            "dk",
+            "ksc",
+            "ksk",
+            "szp",
+            "uos"
+        ],
+        "validation": [
+            "nno"
+        ],
+        "test": [
+            "uzp"
+        ]
+    }
+}
